@@ -1,1 +1,20 @@
+---
+title: 'Week 6 HW: Genetic Circuits Part 1'
+weight: 10
+---
 
+**Modeling the assembly design with Benchling**
+
+<div style="background:#F4F6F5;border-radius:6px;padding:12px 14px;margin:12px 0;">
+<div style="padding-left: 30px;">
+
+I've used 4 parts to construct the sfGFP expression plasmid with the Benchling Golden Gate assembly tool.
+
+    Part 1: The backbone; ColE1 ori and TetR cassette 
+    Part 2: T7 promoter and RBS
+    Part 3: sfGFP coding sequence
+    Part 4: T7 terminator
+
+    All parts include a type IIS enzyme recognition sequence (BsmB1) and an overhang sequence (4 bases) designed at both ends. To assemble in a sequential order, from Part 1 to Part 4, one of the two overhangs must overlap with the joining part that follows.    
+</div>
+</div>
